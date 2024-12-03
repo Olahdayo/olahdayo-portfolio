@@ -2,7 +2,7 @@
   <footer class="footer text-center py-4">
     <div class="profile-pic-container">
       <img
-        src="/public/images/WhatsApp Image 2024-11-19 at 12.26.50_3a6a0a79.jpg"
+        src="/images/WhatsApp Image 2024-11-19 at 12.26.50_3a6a0a79.jpg"
         alt="Profile Picture"
         class="profile-pic"
       />
