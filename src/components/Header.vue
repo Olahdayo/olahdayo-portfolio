@@ -42,7 +42,7 @@ export default {
 
 <style scoped>
 .hero {
-  background: url('public/images/geometric-gradient-futuristic-background_23-2149116406.avif') no-repeat center center;
+  background: url('/images/geometric-gradient-futuristic-background_23-2149116406.avif') no-repeat center center;
   background-size: cover;
   height: 100vh;
   color: white;
