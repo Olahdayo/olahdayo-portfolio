@@ -1,6 +1,7 @@
 <template>
   <section id="projects" class="container my-5">
     <h3 class="section-title">Projects</h3>
+    <p class="project-desc text-center">This are few of the projects i have worked on so far, many more are on my <a href="https://github.com/Olahdayo" target="_blank" class='github'>GitHub Repo </a></p>
     <div class="row">
       <div class="col-md-4 mb-5" v-for="project in projects" :key="project.title">
         <div class="project-card">
@@ -75,6 +76,10 @@ export default {
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 1.5rem;
+}
+
+.github {
+    text-decoration: none;
 }
 
 .project-card {
