@@ -18,7 +18,7 @@
 export default {
   mounted() {
     this.typeWriterEffect("Hi🙋‍♂️, I'm", 0, this.$refs.welcomeMessage, () => {
-      this.typeWriterEffect("Olahdayo...", 0, this.$refs.headerTitle, () => {
+      this.typeWriterEffect("Blessing Oloyede...", 0, this.$refs.headerTitle, () => {
         this.$refs.headerTitle.style.opacity = 1;
         this.typeWriterEffect(
           "Full-Stack Web Developer.",

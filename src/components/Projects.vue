@@ -9,7 +9,7 @@
           <h4 class="project-title">{{ project.title }}</h4>
           <p class="project-description">{{ project.description }}</p>
           <div class="project-buttons">
-            <a :href="project.github" class="btn btn-dark">GitHub</a>
+            <a :href="project.github" class="btn btn-dark" target="_blank">GitHub</a>
             <a :href="project.liveDemo" class="btn btn-success" target="_blank">Live Demo</a>
           </div>
         </div>
@@ -23,6 +23,20 @@ export default {
   data() {
     return {
       projects: [
+      {
+          title: 'Pinify',
+          description: 'A JobPortal for job-seekers and employers to explore and post job listings, this was built with laravel and vue.js...',
+          github: 'https://github.com/Olahdayo/jobswebsite',
+          liveDemo: 'https://pinify.onrender.com/',
+          image: '/images/Pinify.png',
+        },
+         {
+          title: 'Library Management Website',
+          description: 'Site where admin can new books and management the flow of books by the users..',
+          github: 'https://github.com/Olahdayo/Library_Management',
+          liveDemo: 'http://lmskas.infinityfreeapp.com/',
+          image: '/images/lms.png',
+        },
         {
           title: 'Infinion',
           description: 'A campaign website for users and company, with CRUD functionality...',
